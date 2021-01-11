@@ -1,0 +1,943 @@
+package com.path.dbmaps.vo;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+public class CTSSPCONDVO extends CTSSPCONDVOKey {
+    /**
+     * This field corresponds to the database column CTSSPCOND.ENTITY_TYPE
+     */
+    private String ENTITY_TYPE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.CIF_NO
+     */
+    private BigDecimal CIF_NO;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ACC_BR
+     */
+    private BigDecimal ACC_BR;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ACC_CY
+     */
+    private BigDecimal ACC_CY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ACC_GL
+     */
+    private BigDecimal ACC_GL;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ACC_CIF
+     */
+    private BigDecimal ACC_CIF;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ACC_SL
+     */
+    private BigDecimal ACC_SL;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.FORBID_TRX
+     */
+    private String FORBID_TRX;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.FORBID_PRODUCT
+     */
+    private String FORBID_PRODUCT;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.REASON_ENG
+     */
+    private String REASON_ENG;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.REASON_ARAB
+     */
+    private String REASON_ARAB;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.REASON_CODE
+     */
+    private BigDecimal REASON_CODE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.REMARKS
+     */
+    private String REMARKS;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.EXPIRY_DATE
+     */
+    private Date EXPIRY_DATE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.STARTING_DATE
+     */
+    private Date STARTING_DATE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.BATCH_NO
+     */
+    private BigDecimal BATCH_NO;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.TO_PRINT
+     */
+    private String TO_PRINT;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ADMINISTRATION
+     */
+    private BigDecimal ADMINISTRATION;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.RECORD_SOURCE
+     */
+    private String RECORD_SOURCE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_JUDGEMENT
+     */
+    private Date DATE_JUDGEMENT;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.RECORD_EXIST
+     */
+    private BigDecimal RECORD_EXIST;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.ALLOW_SO
+     */
+    private String ALLOW_SO;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.APPROVED_BY
+     */
+    private String APPROVED_BY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.CREATED_BY
+     */
+    private String CREATED_BY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_APPROVED
+     */
+    private Date DATE_APPROVED;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_CREATED
+     */
+    private Date DATE_CREATED;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_DELETED
+     */
+    private Date DATE_DELETED;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_TO_BE_DELETED
+     */
+    private Date DATE_TO_BE_DELETED;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_MODIFIED
+     */
+    private Date DATE_MODIFIED;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DELETED_BY
+     */
+    private String DELETED_BY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.REQUESTER_SOURCE
+     */
+    private String REQUESTER_SOURCE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.STATUS
+     */
+    private String STATUS;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.TO_BE_DELETED_BY
+     */
+    private String TO_BE_DELETED_BY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.UPDATED_BY
+     */
+    private String UPDATED_BY;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.COND_AUTOMATION_CODE
+     */
+    private BigDecimal COND_AUTOMATION_CODE;
+
+    /**
+     * This field corresponds to the database column CTSSPCOND.DATE_UPDATED
+     */
+    private Date DATE_UPDATED;
+    
+    /**
+     * This field corresponds to the database column CTSSPCOND.VOID_REASON_CODE
+     */
+    private BigDecimal VOID_REASON_CODE;
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ENTITY_TYPE
+     *
+     * @return the value of CTSSPCOND.ENTITY_TYPE
+     */
+    private String RESTRICTION_APPLICABLE;
+    
+    public String getENTITY_TYPE() {
+        return ENTITY_TYPE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ENTITY_TYPE
+     *
+     * @param ENTITY_TYPE the value for CTSSPCOND.ENTITY_TYPE
+     */
+    public void setENTITY_TYPE(String ENTITY_TYPE) {
+        this.ENTITY_TYPE = ENTITY_TYPE == null ? null : ENTITY_TYPE.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.CIF_NO
+     *
+     * @return the value of CTSSPCOND.CIF_NO
+     */
+    public BigDecimal getCIF_NO() {
+        return CIF_NO;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.CIF_NO
+     *
+     * @param CIF_NO the value for CTSSPCOND.CIF_NO
+     */
+    public void setCIF_NO(BigDecimal CIF_NO) {
+        this.CIF_NO = CIF_NO;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ACC_BR
+     *
+     * @return the value of CTSSPCOND.ACC_BR
+     */
+    public BigDecimal getACC_BR() {
+        return ACC_BR;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ACC_BR
+     *
+     * @param ACC_BR the value for CTSSPCOND.ACC_BR
+     */
+    public void setACC_BR(BigDecimal ACC_BR) {
+        this.ACC_BR = ACC_BR;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ACC_CY
+     *
+     * @return the value of CTSSPCOND.ACC_CY
+     */
+    public BigDecimal getACC_CY() {
+        return ACC_CY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ACC_CY
+     *
+     * @param ACC_CY the value for CTSSPCOND.ACC_CY
+     */
+    public void setACC_CY(BigDecimal ACC_CY) {
+        this.ACC_CY = ACC_CY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ACC_GL
+     *
+     * @return the value of CTSSPCOND.ACC_GL
+     */
+    public BigDecimal getACC_GL() {
+        return ACC_GL;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ACC_GL
+     *
+     * @param ACC_GL the value for CTSSPCOND.ACC_GL
+     */
+    public void setACC_GL(BigDecimal ACC_GL) {
+        this.ACC_GL = ACC_GL;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ACC_CIF
+     *
+     * @return the value of CTSSPCOND.ACC_CIF
+     */
+    public BigDecimal getACC_CIF() {
+        return ACC_CIF;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ACC_CIF
+     *
+     * @param ACC_CIF the value for CTSSPCOND.ACC_CIF
+     */
+    public void setACC_CIF(BigDecimal ACC_CIF) {
+        this.ACC_CIF = ACC_CIF;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ACC_SL
+     *
+     * @return the value of CTSSPCOND.ACC_SL
+     */
+    public BigDecimal getACC_SL() {
+        return ACC_SL;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ACC_SL
+     *
+     * @param ACC_SL the value for CTSSPCOND.ACC_SL
+     */
+    public void setACC_SL(BigDecimal ACC_SL) {
+        this.ACC_SL = ACC_SL;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.FORBID_TRX
+     *
+     * @return the value of CTSSPCOND.FORBID_TRX
+     */
+    public String getFORBID_TRX() {
+        return FORBID_TRX;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.FORBID_TRX
+     *
+     * @param FORBID_TRX the value for CTSSPCOND.FORBID_TRX
+     */
+    public void setFORBID_TRX(String FORBID_TRX) {
+        this.FORBID_TRX = FORBID_TRX == null ? null : FORBID_TRX.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.FORBID_PRODUCT
+     *
+     * @return the value of CTSSPCOND.FORBID_PRODUCT
+     */
+    public String getFORBID_PRODUCT() {
+        return FORBID_PRODUCT;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.FORBID_PRODUCT
+     *
+     * @param FORBID_PRODUCT the value for CTSSPCOND.FORBID_PRODUCT
+     */
+    public void setFORBID_PRODUCT(String FORBID_PRODUCT) {
+        this.FORBID_PRODUCT = FORBID_PRODUCT == null ? null : FORBID_PRODUCT.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.REASON_ENG
+     *
+     * @return the value of CTSSPCOND.REASON_ENG
+     */
+    public String getREASON_ENG() {
+        return REASON_ENG;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.REASON_ENG
+     *
+     * @param REASON_ENG the value for CTSSPCOND.REASON_ENG
+     */
+    public void setREASON_ENG(String REASON_ENG) {
+        this.REASON_ENG = REASON_ENG == null ? null : REASON_ENG.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.REASON_ARAB
+     *
+     * @return the value of CTSSPCOND.REASON_ARAB
+     */
+    public String getREASON_ARAB() {
+        return REASON_ARAB;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.REASON_ARAB
+     *
+     * @param REASON_ARAB the value for CTSSPCOND.REASON_ARAB
+     */
+    public void setREASON_ARAB(String REASON_ARAB) {
+        this.REASON_ARAB = REASON_ARAB == null ? null : REASON_ARAB.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.REASON_CODE
+     *
+     * @return the value of CTSSPCOND.REASON_CODE
+     */
+    public BigDecimal getREASON_CODE() {
+        return REASON_CODE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.REASON_CODE
+     *
+     * @param REASON_CODE the value for CTSSPCOND.REASON_CODE
+     */
+    public void setREASON_CODE(BigDecimal REASON_CODE) {
+        this.REASON_CODE = REASON_CODE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.REMARKS
+     *
+     * @return the value of CTSSPCOND.REMARKS
+     */
+    public String getREMARKS() {
+        return REMARKS;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.REMARKS
+     *
+     * @param REMARKS the value for CTSSPCOND.REMARKS
+     */
+    public void setREMARKS(String REMARKS) {
+        this.REMARKS = REMARKS == null ? null : REMARKS.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.EXPIRY_DATE
+     *
+     * @return the value of CTSSPCOND.EXPIRY_DATE
+     */
+    public Date getEXPIRY_DATE() {
+        return EXPIRY_DATE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.EXPIRY_DATE
+     *
+     * @param EXPIRY_DATE the value for CTSSPCOND.EXPIRY_DATE
+     */
+    public void setEXPIRY_DATE(Date EXPIRY_DATE) {
+        this.EXPIRY_DATE = EXPIRY_DATE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.STARTING_DATE
+     *
+     * @return the value of CTSSPCOND.STARTING_DATE
+     */
+    public Date getSTARTING_DATE() {
+        return STARTING_DATE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.STARTING_DATE
+     *
+     * @param STARTING_DATE the value for CTSSPCOND.STARTING_DATE
+     */
+    public void setSTARTING_DATE(Date STARTING_DATE) {
+        this.STARTING_DATE = STARTING_DATE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.BATCH_NO
+     *
+     * @return the value of CTSSPCOND.BATCH_NO
+     */
+    public BigDecimal getBATCH_NO() {
+        return BATCH_NO;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.BATCH_NO
+     *
+     * @param BATCH_NO the value for CTSSPCOND.BATCH_NO
+     */
+    public void setBATCH_NO(BigDecimal BATCH_NO) {
+        this.BATCH_NO = BATCH_NO;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.TO_PRINT
+     *
+     * @return the value of CTSSPCOND.TO_PRINT
+     */
+    public String getTO_PRINT() {
+        return TO_PRINT;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.TO_PRINT
+     *
+     * @param TO_PRINT the value for CTSSPCOND.TO_PRINT
+     */
+    public void setTO_PRINT(String TO_PRINT) {
+        this.TO_PRINT = TO_PRINT == null ? null : TO_PRINT.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ADMINISTRATION
+     *
+     * @return the value of CTSSPCOND.ADMINISTRATION
+     */
+    public BigDecimal getADMINISTRATION() {
+        return ADMINISTRATION;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ADMINISTRATION
+     *
+     * @param ADMINISTRATION the value for CTSSPCOND.ADMINISTRATION
+     */
+    public void setADMINISTRATION(BigDecimal ADMINISTRATION) {
+        this.ADMINISTRATION = ADMINISTRATION;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.RECORD_SOURCE
+     *
+     * @return the value of CTSSPCOND.RECORD_SOURCE
+     */
+    public String getRECORD_SOURCE() {
+        return RECORD_SOURCE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.RECORD_SOURCE
+     *
+     * @param RECORD_SOURCE the value for CTSSPCOND.RECORD_SOURCE
+     */
+    public void setRECORD_SOURCE(String RECORD_SOURCE) {
+        this.RECORD_SOURCE = RECORD_SOURCE == null ? null : RECORD_SOURCE.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_JUDGEMENT
+     *
+     * @return the value of CTSSPCOND.DATE_JUDGEMENT
+     */
+    public Date getDATE_JUDGEMENT() {
+        return DATE_JUDGEMENT;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_JUDGEMENT
+     *
+     * @param DATE_JUDGEMENT the value for CTSSPCOND.DATE_JUDGEMENT
+     */
+    public void setDATE_JUDGEMENT(Date DATE_JUDGEMENT) {
+        this.DATE_JUDGEMENT = DATE_JUDGEMENT;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.RECORD_EXIST
+     *
+     * @return the value of CTSSPCOND.RECORD_EXIST
+     */
+    public BigDecimal getRECORD_EXIST() {
+        return RECORD_EXIST;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.RECORD_EXIST
+     *
+     * @param RECORD_EXIST the value for CTSSPCOND.RECORD_EXIST
+     */
+    public void setRECORD_EXIST(BigDecimal RECORD_EXIST) {
+        this.RECORD_EXIST = RECORD_EXIST;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.ALLOW_SO
+     *
+     * @return the value of CTSSPCOND.ALLOW_SO
+     */
+    public String getALLOW_SO() {
+        return ALLOW_SO;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.ALLOW_SO
+     *
+     * @param ALLOW_SO the value for CTSSPCOND.ALLOW_SO
+     */
+    public void setALLOW_SO(String ALLOW_SO) {
+        this.ALLOW_SO = ALLOW_SO == null ? null : ALLOW_SO.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.APPROVED_BY
+     *
+     * @return the value of CTSSPCOND.APPROVED_BY
+     */
+    public String getAPPROVED_BY() {
+        return APPROVED_BY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.APPROVED_BY
+     *
+     * @param APPROVED_BY the value for CTSSPCOND.APPROVED_BY
+     */
+    public void setAPPROVED_BY(String APPROVED_BY) {
+        this.APPROVED_BY = APPROVED_BY == null ? null : APPROVED_BY.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.CREATED_BY
+     *
+     * @return the value of CTSSPCOND.CREATED_BY
+     */
+    public String getCREATED_BY() {
+        return CREATED_BY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.CREATED_BY
+     *
+     * @param CREATED_BY the value for CTSSPCOND.CREATED_BY
+     */
+    public void setCREATED_BY(String CREATED_BY) {
+        this.CREATED_BY = CREATED_BY == null ? null : CREATED_BY.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_APPROVED
+     *
+     * @return the value of CTSSPCOND.DATE_APPROVED
+     */
+    public Date getDATE_APPROVED() {
+        return DATE_APPROVED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_APPROVED
+     *
+     * @param DATE_APPROVED the value for CTSSPCOND.DATE_APPROVED
+     */
+    public void setDATE_APPROVED(Date DATE_APPROVED) {
+        this.DATE_APPROVED = DATE_APPROVED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_CREATED
+     *
+     * @return the value of CTSSPCOND.DATE_CREATED
+     */
+    public Date getDATE_CREATED() {
+        return DATE_CREATED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_CREATED
+     *
+     * @param DATE_CREATED the value for CTSSPCOND.DATE_CREATED
+     */
+    public void setDATE_CREATED(Date DATE_CREATED) {
+        this.DATE_CREATED = DATE_CREATED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_DELETED
+     *
+     * @return the value of CTSSPCOND.DATE_DELETED
+     */
+    public Date getDATE_DELETED() {
+        return DATE_DELETED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_DELETED
+     *
+     * @param DATE_DELETED the value for CTSSPCOND.DATE_DELETED
+     */
+    public void setDATE_DELETED(Date DATE_DELETED) {
+        this.DATE_DELETED = DATE_DELETED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_TO_BE_DELETED
+     *
+     * @return the value of CTSSPCOND.DATE_TO_BE_DELETED
+     */
+    public Date getDATE_TO_BE_DELETED() {
+        return DATE_TO_BE_DELETED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_TO_BE_DELETED
+     *
+     * @param DATE_TO_BE_DELETED the value for CTSSPCOND.DATE_TO_BE_DELETED
+     */
+    public void setDATE_TO_BE_DELETED(Date DATE_TO_BE_DELETED) {
+        this.DATE_TO_BE_DELETED = DATE_TO_BE_DELETED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_MODIFIED
+     *
+     * @return the value of CTSSPCOND.DATE_MODIFIED
+     */
+    public Date getDATE_MODIFIED() {
+        return DATE_MODIFIED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_MODIFIED
+     *
+     * @param DATE_MODIFIED the value for CTSSPCOND.DATE_MODIFIED
+     */
+    public void setDATE_MODIFIED(Date DATE_MODIFIED) {
+        this.DATE_MODIFIED = DATE_MODIFIED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DELETED_BY
+     *
+     * @return the value of CTSSPCOND.DELETED_BY
+     */
+    public String getDELETED_BY() {
+        return DELETED_BY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DELETED_BY
+     *
+     * @param DELETED_BY the value for CTSSPCOND.DELETED_BY
+     */
+    public void setDELETED_BY(String DELETED_BY) {
+        this.DELETED_BY = DELETED_BY == null ? null : DELETED_BY.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.REQUESTER_SOURCE
+     *
+     * @return the value of CTSSPCOND.REQUESTER_SOURCE
+     */
+    public String getREQUESTER_SOURCE() {
+        return REQUESTER_SOURCE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.REQUESTER_SOURCE
+     *
+     * @param REQUESTER_SOURCE the value for CTSSPCOND.REQUESTER_SOURCE
+     */
+    public void setREQUESTER_SOURCE(String REQUESTER_SOURCE) {
+        this.REQUESTER_SOURCE = REQUESTER_SOURCE == null ? null : REQUESTER_SOURCE.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.STATUS
+     *
+     * @return the value of CTSSPCOND.STATUS
+     */
+    public String getSTATUS() {
+        return STATUS;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.STATUS
+     *
+     * @param STATUS the value for CTSSPCOND.STATUS
+     */
+    public void setSTATUS(String STATUS) {
+        this.STATUS = STATUS == null ? null : STATUS.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.TO_BE_DELETED_BY
+     *
+     * @return the value of CTSSPCOND.TO_BE_DELETED_BY
+     */
+    public String getTO_BE_DELETED_BY() {
+        return TO_BE_DELETED_BY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.TO_BE_DELETED_BY
+     *
+     * @param TO_BE_DELETED_BY the value for CTSSPCOND.TO_BE_DELETED_BY
+     */
+    public void setTO_BE_DELETED_BY(String TO_BE_DELETED_BY) {
+        this.TO_BE_DELETED_BY = TO_BE_DELETED_BY == null ? null : TO_BE_DELETED_BY.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.UPDATED_BY
+     *
+     * @return the value of CTSSPCOND.UPDATED_BY
+     */
+    public String getUPDATED_BY() {
+        return UPDATED_BY;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.UPDATED_BY
+     *
+     * @param UPDATED_BY the value for CTSSPCOND.UPDATED_BY
+     */
+    public void setUPDATED_BY(String UPDATED_BY) {
+        this.UPDATED_BY = UPDATED_BY == null ? null : UPDATED_BY.trim();
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.COND_AUTOMATION_CODE
+     *
+     * @return the value of CTSSPCOND.COND_AUTOMATION_CODE
+     */
+    public BigDecimal getCOND_AUTOMATION_CODE() {
+        return COND_AUTOMATION_CODE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.COND_AUTOMATION_CODE
+     *
+     * @param COND_AUTOMATION_CODE the value for CTSSPCOND.COND_AUTOMATION_CODE
+     */
+    public void setCOND_AUTOMATION_CODE(BigDecimal COND_AUTOMATION_CODE) {
+        this.COND_AUTOMATION_CODE = COND_AUTOMATION_CODE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.DATE_UPDATED
+     *
+     * @return the value of CTSSPCOND.DATE_UPDATED
+     */
+    public Date getDATE_UPDATED() {
+        return DATE_UPDATED;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.DATE_UPDATED
+     *
+     * @param DATE_UPDATED the value for CTSSPCOND.DATE_UPDATED
+     */
+    public void setDATE_UPDATED(Date DATE_UPDATED) {
+        this.DATE_UPDATED = DATE_UPDATED;
+    }
+
+    public String getRESTRICTION_APPLICABLE()
+    {
+        return RESTRICTION_APPLICABLE;
+    }
+
+    public void setRESTRICTION_APPLICABLE(String rESTRICTION_APPLICABLE)
+    {
+        RESTRICTION_APPLICABLE = rESTRICTION_APPLICABLE;
+    }
+    
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method returns the value of the database column CTSSPCOND.VOID_REASON_CODE
+     *
+     * @return the value of CTSSPCOND.VOID_REASON_CODE
+     */
+    public BigDecimal getVOID_REASON_CODE() {
+        return VOID_REASON_CODE;
+    }
+
+    /**
+     * This method was generated by MyBatis Generator.
+     * This method sets the value of the database column CTSSPCOND.VOID_REASON_CODE
+     *
+     * @param VOID_REASON_CODE the value for CTSSPCOND.VOID_REASON_CODE
+     */
+    public void setVOID_REASON_CODE(BigDecimal VOID_REASON_CODE) {
+        this.VOID_REASON_CODE = VOID_REASON_CODE;
+    }
+}
